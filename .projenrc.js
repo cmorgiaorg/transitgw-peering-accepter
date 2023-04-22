@@ -2,7 +2,7 @@ const { awscdk } = require('projen');
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Claudio Morgia',
   authorAddress: 'cmorgia@amazon.ch',
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.76.0',
   defaultReleaseBranch: 'main',
   name: 'newtgw',
   repositoryUrl: 'https://github.com/cmorgia/newtgw.git',
