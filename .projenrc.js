@@ -21,6 +21,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
     dotNetNamespace: 'ch.amazon.cmorgia',
     packageId: 'newtgw',
   },
+  publishToMaven: {
+    javaPackage: 'io.github.cmorgia',
+    mavenArtifactId: 'io.github.cmorgia',
+    mavenGroupId: 'io.github.cmorgia',
+  },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
