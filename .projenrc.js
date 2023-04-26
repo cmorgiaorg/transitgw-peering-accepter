@@ -10,9 +10,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: projectName,
   repositoryUrl: `https://github.com/cmorgia/${projectName}.git`,
-  deps: [
-    `@aws-cdk/aws-lambda-python-alpha@${cdkVersion}-alpha.0`,
-  ],
   publishToPypi: {
     distName: projectName,
     module: projectName,
