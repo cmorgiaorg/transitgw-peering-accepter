@@ -51,10 +51,10 @@
     "jest-junit": "^15",
     "jsii": "1.x",
     "jsii-diff": "^1.80.0",
-    "jsii-docgen": "^7.2.1",
+    "jsii-docgen": "^7.2.6",
     "jsii-pacmak": "^1.80.0",
     "npm-check-updates": "^16",
-    "projen": "^0.71.23",
+    "projen": "^0.71.28",
     "standard-version": "^9",
     "ts-jest": "^27",
     "typescript": "^5.0.4"
