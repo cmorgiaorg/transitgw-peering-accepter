@@ -1,6 +1,6 @@
 const { awscdk } = require('projen');
 
-const cdkVersion = '2.91.0';
+const cdkVersion = '2.155.0';
 const projectName = 'newtgw';
 
 const project = new awscdk.AwsCdkConstructLibrary({
