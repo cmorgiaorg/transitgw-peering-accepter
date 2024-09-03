@@ -19,8 +19,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
     packageId: 'newtgw',
   },
   publishToMaven: {
-    javaPackage: 'io.github.cmorgia',
-    mavenArtifactId: 'io.github.cmorgia',
+    javaPackage: 'io.github.cmorgia.newtgw',
+    mavenArtifactId: 'newtgw',
     mavenGroupId: 'io.github.cmorgia',
     mavenEndpoint: 'https://s01.oss.sonatype.org',
   },
