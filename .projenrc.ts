@@ -23,12 +23,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
     dotNetNamespace: 'com.github.cmorgia',
     packageId: projectName,
   },
-  publishToMaven: {
-    javaPackage: 'io.github.cmorgia.newtgw',
-    mavenArtifactId: projectName,
-    mavenGroupId: 'io.github.cmorgia',
-    //mavenEndpoint: 'https://s01.oss.sonatype.org',
-  },
+  // publishToMaven: {
+  //   javaPackage: 'io.github.cmorgia.newtgw',
+  //   mavenArtifactId: projectName,
+  //   mavenGroupId: 'io.github.cmorgia',
+  //   //mavenEndpoint: 'https://s01.oss.sonatype.org',
+  // },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
