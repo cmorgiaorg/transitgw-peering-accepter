@@ -1,28 +1,33 @@
-const { awscdk } = require('projen');
+import { awscdk } from 'projen';
 
 const cdkVersion = '2.155.0';
 const projectName = 'newtgw';
+const keywords = projectName.split('-');
+keywords.push('cdk', 'typescript', 'aws');
 
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Claudio Morgia',
-  authorAddress: 'cmorgia@amazon.ch',
+  authorAddress: 'cmorgia@gmail.com',
   cdkVersion: cdkVersion,
   defaultReleaseBranch: 'main',
+  jsiiVersion: '~5.5.0',
   name: projectName,
-  repositoryUrl: `https://github.com/cmorgia/${projectName}.git`,
+  keywords: keywords,
+  projenrcTs: true,
+  repositoryUrl: 'https://github.com/cmorgiaorg/newtgw.git',
   publishToPypi: {
     distName: projectName,
     module: projectName,
   },
   publishToNuget: {
-    dotNetNamespace: 'ch.amazon.cmorgia',
-    packageId: 'newtgw',
+    dotNetNamespace: 'com.github.cmorgia',
+    packageId: projectName,
   },
   publishToMaven: {
     javaPackage: 'io.github.cmorgia.newtgw',
-    mavenArtifactId: 'newtgw',
+    mavenArtifactId: projectName,
     mavenGroupId: 'io.github.cmorgia',
-    mavenEndpoint: 'https://s01.oss.sonatype.org',
+    //mavenEndpoint: 'https://s01.oss.sonatype.org',
   },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
