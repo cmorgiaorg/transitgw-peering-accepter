@@ -1,7 +1,7 @@
 import { awscdk } from 'projen';
 
 const cdkVersion = '2.155.0';
-const projectName = 'newtgw';
+const projectName = 'transitgw-peering-accepter';
 const keywords = projectName.split('-');
 keywords.push('cdk', 'typescript', 'aws');
 
@@ -14,7 +14,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: projectName,
   keywords: keywords,
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/cmorgiaorg/newtgw.git',
+  repositoryUrl: `https://github.com/cmorgiaorg/${projectName}.git`,
   publishToPypi: {
     distName: projectName,
     module: projectName,

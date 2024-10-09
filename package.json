@@ -1,8 +1,8 @@
 {
-  "name": "newtgw",
+  "name": "transitgw-peering-accepter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cmorgiaorg/newtgw.git"
+    "url": "https://github.com/cmorgiaorg/transitgw-peering-accepter.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -63,9 +63,11 @@
     "constructs": "^10.0.5"
   },
   "keywords": [
+    "accepter",
     "aws",
     "cdk",
-    "newtgw",
+    "peering",
+    "transitgw",
     "typescript"
   ],
   "main": "lib/index.js",
@@ -125,12 +127,12 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "newtgw",
-        "module": "newtgw"
+        "distName": "transitgw-peering-accepter",
+        "module": "transitgw-peering-accepter"
       },
       "dotnet": {
         "namespace": "com.github.cmorgia",
-        "packageId": "newtgw"
+        "packageId": "transitgw-peering-accepter"
       }
     },
     "tsc": {
