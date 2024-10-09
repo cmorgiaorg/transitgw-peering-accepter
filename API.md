@@ -2,37 +2,37 @@
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### AcceptTransitPeering <a name="AcceptTransitPeering" id="newtgw.AcceptTransitPeering"></a>
+### AcceptTransitPeering <a name="AcceptTransitPeering" id="transitgw-peering-accepter.AcceptTransitPeering"></a>
 
-#### Initializers <a name="Initializers" id="newtgw.AcceptTransitPeering.Initializer"></a>
+#### Initializers <a name="Initializers" id="transitgw-peering-accepter.AcceptTransitPeering.Initializer"></a>
 
 ```typescript
-import { AcceptTransitPeering } from 'newtgw'
+import { AcceptTransitPeering } from 'transitgw-peering-accepter'
 
 new AcceptTransitPeering(scope: Construct, id: string, transitGatewayAttachmentId: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#newtgw.AcceptTransitPeering.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#newtgw.AcceptTransitPeering.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#newtgw.AcceptTransitPeering.Initializer.parameter.transitGatewayAttachmentId">transitGatewayAttachmentId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#transitgw-peering-accepter.AcceptTransitPeering.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#transitgw-peering-accepter.AcceptTransitPeering.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#transitgw-peering-accepter.AcceptTransitPeering.Initializer.parameter.transitGatewayAttachmentId">transitGatewayAttachmentId</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="newtgw.AcceptTransitPeering.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="transitgw-peering-accepter.AcceptTransitPeering.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="newtgw.AcceptTransitPeering.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="transitgw-peering-accepter.AcceptTransitPeering.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `transitGatewayAttachmentId`<sup>Required</sup> <a name="transitGatewayAttachmentId" id="newtgw.AcceptTransitPeering.Initializer.parameter.transitGatewayAttachmentId"></a>
+##### `transitGatewayAttachmentId`<sup>Required</sup> <a name="transitGatewayAttachmentId" id="transitgw-peering-accepter.AcceptTransitPeering.Initializer.parameter.transitGatewayAttachmentId"></a>
 
 - *Type:* string
 
@@ -42,11 +42,11 @@ new AcceptTransitPeering(scope: Construct, id: string, transitGatewayAttachmentI
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#newtgw.AcceptTransitPeering.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#transitgw-peering-accepter.AcceptTransitPeering.toString">toString</a></code> | Returns a string representation of this construct. |
 
 ---
 
-##### `toString` <a name="toString" id="newtgw.AcceptTransitPeering.toString"></a>
+##### `toString` <a name="toString" id="transitgw-peering-accepter.AcceptTransitPeering.toString"></a>
 
 ```typescript
 public toString(): string
@@ -58,21 +58,21 @@ Returns a string representation of this construct.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#newtgw.AcceptTransitPeering.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#transitgw-peering-accepter.AcceptTransitPeering.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### ~~`isConstruct`~~ <a name="isConstruct" id="newtgw.AcceptTransitPeering.isConstruct"></a>
+##### ~~`isConstruct`~~ <a name="isConstruct" id="transitgw-peering-accepter.AcceptTransitPeering.isConstruct"></a>
 
 ```typescript
-import { AcceptTransitPeering } from 'newtgw'
+import { AcceptTransitPeering } from 'transitgw-peering-accepter'
 
 AcceptTransitPeering.isConstruct(x: any)
 ```
 
 Checks if `x` is a construct.
 
-###### `x`<sup>Required</sup> <a name="x" id="newtgw.AcceptTransitPeering.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="transitgw-peering-accepter.AcceptTransitPeering.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -84,11 +84,11 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#newtgw.AcceptTransitPeering.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#transitgw-peering-accepter.AcceptTransitPeering.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="newtgw.AcceptTransitPeering.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="transitgw-peering-accepter.AcceptTransitPeering.property.node"></a>
 
 ```typescript
 public readonly node: Node;
