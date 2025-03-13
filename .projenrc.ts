@@ -1,6 +1,6 @@
 import { awscdk } from 'projen';
 
-const cdkVersion = '2.161.1';
+const cdkVersion = '2.183.0';
 const projectName = 'transitgw-peering-accepter';
 const keywords = projectName.split('-');
 keywords.push('cdk', 'typescript', 'aws');
